@@ -21,7 +21,7 @@ st.markdown("Prediksi jenis jeruk **Siam, Pontianak, atau Mandarin** berdasarkan
 
 diameter = st.slider("Masukkan Diameter Jeruk (cm)", 0.0, 8.0, 7.5)
 berat = st.slider("Masukkan Berat Jeruk (gr)", 0.0, 200.0, 145.0)
-tebal_kulit = st.slider("Masukkan Tebal Jeruk (cm)", 0.0, 3.5, 3.2)
+tebal_kulit = st.slider("Masukkan Tebal Kulit Jeruk (cm)", 0.0, 3.5, 3.2)
 kadar_gula = st.slider("Masukkan Kadar Gula (%)", 0.0, 20.0, 12.1)
 
 if st.button("Prediksi"):
