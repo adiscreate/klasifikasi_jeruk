@@ -9,44 +9,6 @@ st.set_page_config(
 	initial_sidebar_state="collapsed"
 )
 
-st.markdown("""
-<style>
-/* Background utama */
-.stApp {
-    background-color: #fff8f0;
-}
-
-/* Header (navbar) */
-[data-testid="stHeader"] {
-    background-color: #4CAF50; /* hijau daun */
-    color: white;
-}
-
-/* Toolbar (pojok kanan atas) */
-[data-testid="stToolbar"] {
-    background-color: #388E3C; /* hijau tua */
-    color: white;
-}
-
-/* Tombol custom */
-.stButton>button {
-    background-color: #ff6f1a; /* oranye jeruk */
-    color: white;
-    border-radius: 10px;
-    font-weight: bold;
-    transition: background-color 0.3s; /* animasi halus */
-}
-
-/* Efek hover */
-.stButton>button:hover {
-    background-color: #388E3C; /* oranye lebih gelap saat hover */
-    color: white;
-}
-
-</style>
-""", unsafe_allow_html=True)
-
-
 try:
 	model = joblib.load("model_klasifikasi_jeruk.joblib")
 	scaler = joblib.load("scaler_klasifikasi_jeruk.joblib")

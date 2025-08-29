@@ -1,7 +1,0 @@
-[theme]
-base="light"  # paksa selalu light mode
-primaryColor="#ff6f1a"  # tombol oranye jeruk
-backgroundColor="#fff8f0"  # background utama
-secondaryBackgroundColor="#388E3C"  # hijau tua (sidebar / toolbar)
-textColor="#000000"  # teks hitam
-font="sans serif"
