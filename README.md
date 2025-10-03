@@ -1,4 +1,4 @@
-# Step by Step 
+### Step by Step 
 - lakukan load dataset
 - lakukan exploratory data analysis (EDA)
 - buat visualisasi menggunakan scatter plot
